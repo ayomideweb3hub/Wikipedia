@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img-con {
+    text-align: center;
+    margin-top: 100px;
+}
+img {
+    position: relative;
+    /* left: 500px;
+    top: 70px; */
+    width: 200px;
+    
+}
+span {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#general {
+    position: absolute;
+    text-align: center;
+    
+
+}
+#general:hover {
+    background-color: #EAECF0;
+}
+#general a {
+    text-decoration: none;
+    color: #3366CC;
+    font-weight: 700;
+
+}
+#general a:hover {
+    border-bottom: 1.5px solid #3366CC;
+}
+#general p {
+    font-size: 12px;
+    font-weight: 100px;
+}
+.absolute1 {
+    top: 165px;
+    left: 460px;
+}
+.absolute2 {
+    top: 220px;
+    left: 420px;
+}
+.absolute3 {
+    top: 285px;
+    left: 410px;
+}
+.absolute4 {
+    top: 350px;
+    left: 430px;
+}
+.absolute5 {
+    top: 415px;
+    left: 480px;
+}
+.absolute6 {
+    top: 165px;
+    right: 460px;
+}
+.absolute7 {
+    top: 220px;
+    right: 420px;
+}
+.absolute8 {
+    top: 285px;
+    right: 410px;
+}
+.absolute9 {
+    top: 350px;
+    right: 430px;
+}
+.absolute10 {
+    top: 415px;
+    right: 480px;
+}
+.parent-search {
+     margin-left: 450px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 440px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.search input {
+    width: 370px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.search select {
+    width: 40px;
+    height: 25px;
+    border: none;
+    
+}
+.search select:hover {
+    background-color: whitesmoke;
+    outline: 1px solid #3366CC;
+    
+}
+.icon {
+    width: 50px;
+    height: 40px;
+    background-color: #3366CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon img {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
